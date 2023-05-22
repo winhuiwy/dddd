@@ -1,8 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "aaaaa"
+  name: my-fake-component
+  description: idk what i am doing
+  tags:
+    - go
+    - website
 spec:
   type: service
-  owner: user:guest
-  lifecycle: experimental
+  owner: my-team
+  lifecycle: production
